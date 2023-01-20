@@ -17,7 +17,12 @@
 
   body,
   html {
+    background-image: linear-gradient(to right, rgb(247, 247, 247) , rgb(79, 7, 112));
     height: 95vh;
+  }
+  .main{
+    display: block;
+    margin-left: 500px;
   }
   button {
     cursor: pointer;
@@ -114,7 +119,11 @@
     background-color: #000000;
     color: #362f24;
   }
-  
+  h1{
+    text-align: center;
+    font-size: 60px;
+    /* margin-left:00px; */
+  }
   .btn-grey {
     background-color: #e97f1b;
     color: #000;
@@ -152,4 +161,10 @@
     display: block;
     /* align-items: center; */
     
+  }
+  img{
+    display: block;
+    width: 500px;
+    margin-left:180px ;
+    margin-top: 170px;
   }
